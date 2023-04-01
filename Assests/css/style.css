@@ -1,0 +1,193 @@
+:root {
+  /*---bg-color--*/
+  --bg-primary-color: #008489;
+  --bg-secondary-color: #3f3b51;
+
+  /*-------text-color----*/
+  --text-white: #fff;
+  --text-primary-color: #0aeded;
+  --text-secondary-color: #008489;
+  --text-third-color: #03F3B51;
+}
+.dpimg {
+ overflow: hidden;
+ width: 100%;
+ height: 100vh;
+ background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../image/bg-img.jpg);
+ background-position: center;
+ background-size: cover;
+}
+.menu-section .navbar-brand {
+  font-size: 40px;
+  font-weight: 700;
+  color: var(--text-primary-color);
+  -webkit-text-stroke: var(--text-white) 1px;
+}
+.menu-section .navbar-brand:hover {
+  color: var(--text-third-color);
+}
+
+.carousel {
+    position: absolute !important;
+    top: 30% !important;
+}
+.blog-section{
+  overflow: hidden;
+ width: 100%;
+ height: 95vh;
+ background:linear-gradient(to top,rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../image/study2.jpg);
+ background-position: center;
+}
+.navbar-toggler {
+
+  background-color: white !important;
+  border: 1px solid transparent;
+}
+.navbar-toggler:focus {
+  box-shadow: none !important;
+}
+
+
+@media(max-width: 700px)
+{
+    .menu-section .navbar-brand {
+        font-size: 30px !important;
+    
+}.carousel {
+  position: absolute !important;
+  top: 22% !important;
+}
+.navbar-nav {
+  position: relative !important;
+  z-index: 9999999 !important;
+  list-style: none;
+  background-color: #0d6efd;
+  padding: 0 10px !important;
+}
+.nav-custom-style .nav-link{
+  border-bottom: 1px solid white !important;
+}
+}
+/*------------About us----*/
+.header {
+  overflow: hidden;
+  width: 100%;
+  height: 75vh;
+  background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(../image/student.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.col-section{
+  border: none;
+}
+
+.col-section img{
+  height: 150px;
+  width: 100%;
+  border-radius: 10% 0 0 0;  
+}
+.card-border{
+  border-radius: 12% 0% 12% 0;
+}
+/*-----------------testmonials start-------------*/
+.testimonial-col {
+  flex-basis: 44%;
+  border-radius: 10px;
+  text-align: left;
+  background: #fff3f3;
+  padding: 25px;
+  cursor: pointer;
+  display: flex;
+}
+.testimonial-col img {
+  height: 80px;
+  width: 80px;
+  border-radius:50%;
+
+}
+.card1{
+  position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 0.25rem;
+}
+.testimonial-col p{
+  padding: 0;
+  }
+.testimonial-col h3{
+  margin-top: 5px;
+  text-align: left;
+  
+  }
+  .testimonial-col .fa{
+  color: #f44336;
+  }
+  .footer-icon .fa {
+    color: #0d6efd;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 7px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all ease-in-out 0.3s;
+}
+.footer-icon .fa:hover{
+  background-color: #0d6efd;
+  color: #fff;
+  transition: all ease-in-out 0.3s;
+}
+  
+/*---------Blog section start----------------*/
+.card-facilities{
+  border-radius: 25% 0;
+  border-color: #f44336;
+}
+.card-facilities img{
+  border-radius: 15% 0;
+}
+.card-facilities img:hover{
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  transition: all ease-in-out 0.6s;
+}
+
+.student-card-hover:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  transition: all ease-in-out 0.6s;
+}
+/*--------------Blog section end-------*/
+
+/*--------------Contact section start-------*/
+.location iframe{
+  width: 100%;
+}
+.contect-col{
+  flex-basis: 30%;
+  
+}
+.contect-col .contact-area{
+  display: flex;
+  align-items: center;
+}
+.contect-col .contact-area .fa{
+  font-size: 28px;
+  color: #f44336;
+  margin-right: 20px;
+}
+.contect-col .contact-area p{
+  color: #877ca7;
+}
+.contact-add input, .contact-add textarea{
+  width: 100%;
+  margin-bottom: 17px;
+  padding: 15px;
+  border: 1px solid #877ca7;
+  box-sizing: border-box;
+  outline: none;
+}
+
+/*--------------Contact section end-------*/
